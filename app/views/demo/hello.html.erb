@@ -1,0 +1,15 @@
+<h1>Hello world from hello</h1>
+<%= 1+1 %><br/>
+<% target ="world"%>
+<%= "Hello #{target}" %>
+<br />
+<%=
+3.times do |n|
+	puts n
+end
+%></br>
+<%= link_to('Hello Index' , {:action=>'index'})%>
+</br>
+
+<%= link_to('Hello With Parameters' , {:action=>'index', :page=>5 ,:id=>20 })%>
+
